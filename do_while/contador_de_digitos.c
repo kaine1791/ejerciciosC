@@ -10,7 +10,7 @@ int main()
 {
    int numero,digitos,i;
    
-   i=0;
+   
    
    do{
         printf("Ingrese un numero entre 0 y 999: ");
