@@ -29,7 +29,7 @@ int main()
     
     for(i=0;i<=4;++i){
         printf("Altura de la %d persona: %.2f \n",i+1,altura[i]);
-        printf("El promedio es de: %.2f \n",promedio);
+        
         
         if(altura[i]>promedio){
             n_altos++;
@@ -37,10 +37,12 @@ int main()
             n_bajos++;
         }
         
+        
+    }   
+        printf("El promedio es de: %.2f \n",promedio);
         printf("Numero de personas que son mas altas que el promedio: %d \n",n_altos);
         printf("Numero de personas que son mas bajas que el promedio: %d \n",n_bajos);
-    }
-   
+        
 
     return 0;
 }
